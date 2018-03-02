@@ -86,7 +86,8 @@ public class MainActivity extends Activity {
                 textView.setTextColor(Color.WHITE);
                 textView.setText("By 我思故我在\n"+
                 "群：725574649\n"+
-                "仅供爱好者交流使用！");
+                "仅供爱好者交流使用！\n"+
+                "源码地地址： https://github.com/zhangweiqwe/PubgDestroyGrass/tree/master");
                 textView.setTextIsSelectable(true);
                 linearLayout.addView(textView);
             }
