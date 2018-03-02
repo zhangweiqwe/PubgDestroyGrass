@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vixkw.pubgmhd">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+       android:label="刺激战场.辅助"
+        android:icon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:name=".BaseApplication">
+
+
+        <activity android:name=".LauncherActivity"
+            android:theme="@style/LauncherTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+
+            android:theme="@style/LauncherTheme"/>
+
+    </application>
+</manifest>
